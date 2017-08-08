@@ -20,7 +20,7 @@
           <h4>
             <strong>{{ page.date | date_to_string }}</strong>
             <small>
-              . category:
+              . 分类:
               <a class="category" href="{{site.baseurl}}/categories/{{page.category | downcase}}.html">
                 {{ page.category }}
               </a>.
@@ -36,7 +36,7 @@
             {{ page.content | markdownify }}
           </section>
 
-          {% include share.html %}
+        <!--  {% include share.html %}-->
 
           {% if jekyll.environment == "production" %}
             {% include comments.html %}
