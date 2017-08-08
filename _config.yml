@@ -155,7 +155,7 @@ email: "843111509@qq.com"
 # This works best when your author blurb image has a transparent background, or matches your site background color.
 
 # if the author_blurb is not set, then this feature is skipped
-author_blurb: "雪松"
+author_blurb: "雪松，一个设计爱好者，寻找来自普通生活的艺术灵感，通过努力创作出满意的作品。"
 author_blurb_image: "/img/author.png"
 
 ##################
